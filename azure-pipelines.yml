@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
+  parallel: 1
 
 variables:
   solution: '**/*.sln'
